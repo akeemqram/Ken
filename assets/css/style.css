@@ -1,0 +1,251 @@
+
+ body{
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:white;
+    
+}
+header{
+    background-color:#f7f3f0;
+    padding: 10px 100px;
+    margin: 30px 15px;
+    border-radius: 10px;
+}
+#brand-logo{
+    padding: 0px 20px 0px 0px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    border-right:  1px solid rgba(39, 30, 43, 0.1);
+    font-family: sans-serif;
+}
+.nav-container{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-list{
+    padding: 0;
+    text-decoration: none;
+}
+
+.nav-list li{
+    list-style: none;
+    display: inline;
+    padding: 5px 15px;
+}
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+}
+.cart{
+    padding-top: 15px;
+}
+.cart img{
+    position: relative;
+    top: 10px;
+    padding-right: 12px;
+}
+.header-content{
+    width: 40%;
+    margin-top: 100px;
+}
+.header-content p{
+    margin: 10px 0px 50px 5px;
+}
+.header-content a{
+    text-decoration: none;
+    color: white;
+}
+.header-content img{
+    margin: 25px 0 0 25px;
+}
+.main-header{
+    font-size: 3em;
+    margin: 5px;
+    line-height: 1em;
+}
+
+.nav-button{
+    background-color: #5340fe;
+    color: white;
+    padding:7px 10px;
+    border: 4px #5340fe solid;
+    margin:auto 0px;
+    border-radius: 3px;
+    float:right;
+    margin-top: 7px;
+}
+.nav-button a{
+    text-decoration: none;
+    color: white;
+}
+.nav-button-1{
+    background-color: #5340fe;
+    color: white;
+    padding:5px 7px;
+    border: 4px #5340fe solid;
+    margin-left:10px;
+    border-radius: 3px;
+}
+.nav-button-2{
+    background-color: seagreen;
+    color: white;
+    padding:5px 7px;
+    border: 4px seagreen solid;
+    margin-right:10px;
+    border-radius: 3px;
+}
+.scroll-down{
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+.scroll-down button{    
+    background-color: transparent;
+    border: none;
+}
+small{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    position: relative;
+    bottom: 7px;
+}
+.full-section-content{
+    background-color: #faf9ff;
+    border-radius: 15px;
+    margin: 20px 15px;
+    padding: 10px 75px;
+    
+}
+.main-section{
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    line-height: 1.6em;
+}
+.main-section h2{
+    font-size: 2.5em;
+}
+.main-section p{
+    width: 90%;
+    margin: auto;
+}
+.minor-section{
+    margin: 20px 10px 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.minor-section div {
+    background-color: white;
+    margin: 25px;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.minor-section img{
+    margin-bottom: 60px;
+    margin-top: 15px;
+}
+
+div h4{
+    font-size: 1.5em;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: #5340fe;
+    padding: 30px 30px;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.section-end{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.section-end p{
+    text-align: left;
+    width: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.75em;
+    
+}
+.section-end div{
+    margin: 25px 10px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+/*
+.main-container{
+    background-color: cornsilk;
+}
+.header {
+    
+    width: 50%;
+}
+.button-1{
+    color:rgb(252, 250, 250);
+    background-color:purple;
+    float: right;
+    padding: 10px 8px;
+    position:relative;
+}
+.button-2{
+    font-size: 12px;
+    color:whitesmoke;
+    background-color: seagreen;
+    padding: 3px 4px;
+    border: 3px green solid;
+    width:75px;
+    height: 18px;
+}
+.button-3{
+    font-size: 12px;
+    color:whitesmoke;
+    background-color: purple;
+    padding: 3px 4px;
+    border: 3px rgb(128, 0, 107) solid;
+    width:75px;
+    height: 18px;   
+}
+.container-2{
+    text-align: center;
+}
+.list li{
+    display: inline;
+}
+
+.list div {
+    display: inline;
+    margin: 10px
+}
+
+#hyperlink{
+    text-indent:2%;
+    border: 2px;
+    border-color: black;
+    padding: 10px 8px;
+    margin: 10px;
+    /* background-color: seagreen; */
+    /* float:left;
+}
+
+#hyperlinks{
+    text-indent:2%;
+    border: 2px;
+    border-color: black;
+    padding: 10px 8px;
+    margin: 10px; 
+    background-color:purple;
+}
+.scroll-down {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border: 1px solid grey;
+    text-align: center;
+/* } */ 
